@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Página</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="nav__header">
+    <div class="nav__logo">
+        <a href="index.html">Alma de <span>Viajante</span>.</a>
+    </div>
+    <div class="nav__menu__btn" id="menu-btn">
+        <span><i class="ri-menu-line"></i></span>
+    </div>
+</div>
+
+<body>
+
+
+    <body>
+        <nav>
+            <div class="nav__header">
+                <div class="nav__logo">
+                    <a href="#"> Conheça mais <span>Sobre nós</span></a>
+                </div>
+                <div class="nav__menu__btn" id="menu-btn">
+
+                </div>
+            </div>
+
+        </nav>
+
+        <header class="header__container">
+            <div class="header__content">
+                <h1>Blog</h1>
+                <p>Bem-vindo ao meu blog! Aqui você vai encontrar fotos e demonstração do trabalho oferecido por nós.
+                </p>
+            </div>
+        </header>
+
+        <section class="blog__posts">
+            <div class="blog__post">
+                <div class="blog__post__text">
+                    <h3>Diversas opções !</h3>
+                    <p>Veja parte dos lugares que podemos te levar. Clique para saber mais...</p>
+                    <a href="#">Leia Mais</a>
+                </div>
+            </div>
+            <div class="blogimg1" id="blogimg1">
+                <img src="assets/Cristo_Redentor_-_Rio_de_Janeiro_-_20230321174546 - Copia (1).jpg" alt="Post 2">
+                <div class="blog__post__text">
+                    <h3>O Cristo Redentor</h3>
+                    <p>Um dos lugars masi bonitos do Brasil e do mundo, e você pode ir para lá. Clique para saber
+                        mais...</p>
+                    <a href="#">Leia Mais</a>
+                </div>
+            </div>
+            <div class="blogimg2" id="blogimg2">
+                <img src="assets/maldivas.jpg" alt="Post 3">
+                <div class="blog__post__text">
+                    <h3>Maldivas </h3>
+                    <p>Uma das Sete maravilhas do mundo e você pode ir para lá. Clique para saber mais...</p>
+                    <a href="#">Leia Mais</a>
+                </div>
+            </div>
+            <div class="blogimg3" id="blogimg3">
+                <img src="assets/274715-1920x1080-desktop-1080p-dubai-wallpaper-photo - Copia (1).jpg" alt="Post 4">
+                <div class="blog__post__text">
+                    <h3>Dubai</h3>
+                    <p>Um dos lugares mais lindos do Mundo. Vamos até lá ? Clique para saber mais...</p>
+                    <a href="#">Leia Mais</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Minha Página. Todos os direitos reservados.</p>
+        </footer>
+
+        <script>
+            const menuBtn = document.getElementById('menu-btn');
+            const navLinks = document.querySelector('.nav__links');
+
+            menuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('open');
+            });
+        </script>
+    </body>
+
+</html>
